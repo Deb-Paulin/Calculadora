@@ -1,0 +1,55 @@
+.teclas_container {
+    background-color: var(--cinza);
+    border-radius: 8px;
+    width: 26.4%;
+    padding: 7rem;
+    padding-bottom: 2px;
+    margin-left: 23rem;
+}
+
+.teclas {
+    display: flex;
+    justify-content: center;
+}
+
+.teclas_operacao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -7rem;
+    margin-left: -7rem;
+}
+
+.botao_operacao {
+    padding: 8px 65px;
+    border: var(--borda-padrao);
+    font-size: 26px;
+    font-weight: 500
+}
+
+.teclas_numero {
+    display: grid;
+    grid-template-columns: 147px 141.4px 146px;
+    margin-left: -7rem;
+}
+
+.botao_numero {
+    background-color: var(--branco);
+    padding: 8px;
+    border: var(--borda-padrao);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.tecla_igual {
+    display: flex;
+    margin-left: 20.2rem;
+    margin-top: -13.8rem;
+    padding: 5.7rem 3.9rem;
+    border: 1px solid var(--cor-resultado);
+    background-color: var(--cor-resultado);
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 0 0 8px 0;
+}
+

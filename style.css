@@ -1,0 +1,19 @@
+@import url("styles/visor.css");
+@import url("styles/teclas.css");
+
+:root {
+    --branco: #ffffff;
+    --cinza: #d4d3d3;
+    --preto: #000000;
+    --cor-de-fundo: #98d7eb;
+    --cor-display: #292929;
+    --cor-operacoes: #d9d9d9;
+    --cor-resultado: #fa7f72;
+    --borda-padrao: 1px solid var(--cinza);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-size: 32px;
+    font-weight: 500;
+}
