@@ -1,38 +1,41 @@
-const teclas = document.querySelector('.teclas')
-const botoes = teclas.querySelector('.botao_operacao')
+const calculadora = document.querySelector('.principal');
+const botoes = calculadora.querySelector('.teclas_container');
 
-botoes.addEventListener('click', e => {
-  if (e.target.matches('button')) {
+const handleAction = (event) => {
+  if (event.target.matches('button')) {
+    console.log('botao');
   }
- })
 
-const botao = e.target
-const action = botao.dataset.action
+  const botao = event.target;
+  const action = botao.dataset.action;
 
-if (!action) {
-    console.log('numero operador!')
-}
+  if (!action) {
+    console.log('numero operador!');
+  }
 
-if (
+  if (
     action === 'adicionar' ||
     action === 'subtrair' ||
     action === 'multiplicar' ||
     action === 'dividir'
   ) {
-    console.log('operador!')
+    console.log('operador!');
   }
 
   if (action === 'decimal') {
-    console.log('operador decimal!')
+    console.log('operador decimal!');
   }
-  
+
   if (action === 'limpar') {
-    console.log('operador limpar!')
+    console.log('operador limpar!');
   }
-  
+
   if (action === 'calcular') {
-    console.log('operador igualar!')
+    console.log('operador igualar!');
   }
+};
+
+botoes.addEventListener('click', handleAction);
 
 
 
