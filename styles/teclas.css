@@ -7,15 +7,8 @@
     margin-left: 23rem;
 }
 
-.teclas {
-    display: flex;
-    justify-content: center;
-}
-
 .teclas_operacao {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     margin-top: -7rem;
     margin-left: -7rem;
 }
