@@ -1,4 +1,4 @@
-.teclas_container {
+.teclas {
     background-color: var(--cinza);
     border-radius: 8px;
     width: 26.4%;
@@ -32,6 +32,18 @@
     border: var(--borda-padrao);
     font-size: 32px;
     font-weight: 500;
+}
+
+.tecla_igual {
+    display: flex;
+    margin-left: 20.2rem;
+    margin-top: -13.8rem;
+    padding: 5.7rem 3.9rem;
+    border: 1px solid var(--cor-resultado);
+    background-color: var(--cor-resultado);
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 0 0 8px 0;
 }
 
 .tecla_igual {
