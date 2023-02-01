@@ -1,8 +1,8 @@
 # Calculadora
 
 Tecnologias: 
-HTML 
-CSS
+HTML, 
+CSS,
 Javascript
 
 Objetivos: 
