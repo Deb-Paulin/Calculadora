@@ -14,13 +14,14 @@ const handleAction = (event) => {
   }
 
   if (
-    action === 'adicionar' ||
-    action === 'subtrair' ||
-    action === 'multiplicar' ||
-    action === 'dividir'
+    action === 'adicao' ||
+    action === 'subtracao' ||
+    action === 'multiplicacao' ||
+    action === 'divisao'
   ) {
     console.log('operador!');
   }
+
 
   if (action === 'decimal') {
     console.log('operador decimal!');
