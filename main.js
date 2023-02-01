@@ -1,5 +1,5 @@
 const calculadora = document.querySelector('.principal');
-const botoes = calculadora.querySelector('.teclas_container');
+const botoes = calculadora.querySelector('.teclas');
 
 const handleAction = (event) => {
   if (event.target.matches('button')) {
@@ -36,6 +36,5 @@ const handleAction = (event) => {
 };
 
 botoes.addEventListener('click', handleAction);
-
 
 
